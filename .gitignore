@@ -1,0 +1,9 @@
+# Ignore files build by xcode
+.DS_Store
+*.pbxuser
+*.xcbkptlist
+*.xcworkspacedata
+*.xcuserstate
+*.xccheckout
+
+bin
