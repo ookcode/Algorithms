@@ -49,6 +49,7 @@
 		BF0BBB321F9605AE00E89F6C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BF7A4A071FB05D950066E5D2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BF7A4A101FB05D9F0066E5D2 /* Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Graph; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF848BD21FB0857000597F6C /* preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +125,7 @@
 		BF7A4A061FB05D950066E5D2 /* Graph */ = {
 			isa = PBXGroup;
 			children = (
+				BF848BD21FB0857000597F6C /* preview.png */,
 				BF7A4A071FB05D950066E5D2 /* main.cpp */,
 			);
 			name = Graph;
