@@ -88,7 +88,6 @@ void kruskal() {
     int parent[SIZE] = {0,0,0,0,0,0,0,0,0};
     for (int i = 0; i < edges.size(); ++i) {
         Edge *edge = edges[i];
-        printf("%d - %d = %d\n", edge->begin, edge->end, edge->weight);
         int begin = edge->begin;
         while(parent[begin] != 0) {
             begin = parent[begin];
@@ -99,31 +98,32 @@ void kruskal() {
         }
         if (begin != end) {
             parent[begin] = end;
-//            printf("%d - %d = %d\n", begin, end, edge->weight);
+            printf("%d - %d = %d\n", begin, end, edge->weight);
         }
     }
 }
 
 int main(int argc, const char * argv[]) {
-    printf("prim算法:\n");
+    printf("prim算法:\n"); // 适合边多的情况
     /******************************
-     * 选择一个起点，加入集合
-     * 挑选一个离集合中任一点最近的点，加入集合
+     * 使用邻接矩阵结构
+     * 选择一个起点v0，lowcost[]记录v0到各个点的距离
+     * 遍历lowcost[], 找出离v0最近的点vx(距离最小但不为0)，并将lowcost[x]置为0
+     * 遍历vx的矩阵，如果vx到vi的距离比v0到vi的小，替换进lowcost[i]，并记录vi的前驱是vx
      * 循环挑选直至遍历所有点
      ******************************/
     prim();
     
-    printf("kruskal算法:\n");
+    printf("kruskal算法:\n"); // 适合边少的情况
     /******************************
-     * 挑选权值最小的边
-     * 判断是否已经构成回路（即不需要这条边也能连通两点了）
-     * 如无回路，则将这条边加入选择
-     示例：0-1, 0-5, 1-8, 1-6, 5-6
-     parent[0] = 1
-     parent[0] = 5，0->1, 0->5, 所以1->5(parent[1] = 5)
-     parent[1] = 8，1->5，1->8, 所以5->8(parent[5] = 8)
-     parent[1] = 6，1->5，5->8，所以8->6(parent[8] = 6)
-     parent[5] = 6, 5->8, 8->6, 所以6->6，跳过
+     * 使用边集数组结构，权值由小到大将边排序
+     * 遍历所有边，判断是否已经构成回路（即不需要这条边也能连通两点了）
+     例如：权值从小到大的5条边，0-1, 0-5, 1-8, 1-6, 5-6
+     0 - 1   因为p[0] = 0  所以p[0] = 1，边0-1匹配
+     0 - 5   因为p[0] = 1; p[1] = 0  所以p[1] = 5，边1-5匹配
+     1 - 8   因为p[1] = 5; p[5] = 0  所以p[5] = 8，边5-8匹配
+     1 - 6   因为p[1] = 5; p[5] = 8, p[8] = 0  所以p[8] = 6，边8-6匹配
+     5 - 6   因为p[5] = 8; p[8] = 6  所以p[6] = 6形成回路，跳过
      ******************************/
     kruskal();
     return 0;
