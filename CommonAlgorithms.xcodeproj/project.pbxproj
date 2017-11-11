@@ -83,6 +83,7 @@
 		BF4483511FB2B6AC00006975 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BF44835A1FB2B6BD00006975 /* ShortPath */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ShortPath; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF44835C1FB2BFC000006975 /* preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview.png; sourceTree = "<group>"; };
+		BF6D66F01FB69BF400BBA5DF /* preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview.png; sourceTree = "<group>"; };
 		BF7A4A071FB05D950066E5D2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BF7A4A101FB05D9F0066E5D2 /* Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Graph; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF848BD21FB0857000597F6C /* preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview.png; sourceTree = "<group>"; };
@@ -218,6 +219,7 @@
 		BFD377951FB404850058888B /* AVL */ = {
 			isa = PBXGroup;
 			children = (
+				BF6D66F01FB69BF400BBA5DF /* preview.png */,
 				BFD377961FB404850058888B /* main.cpp */,
 			);
 			path = AVL;
