@@ -7,17 +7,17 @@
 		<key>AVL.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
-		</dict>
-		<key>BinaryTree copy.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>6</integer>
 		</dict>
 		<key>BinaryTree.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>DP.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>Graph.xcscheme</key>
 		<dict>
