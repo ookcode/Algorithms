@@ -1,6 +1,6 @@
 //
+//  main.cpp
 //  贪心算法(greedy algorithm)
-//
 //  钱币找零问题
 //  假设有i种纸币，Values[i]元的纸币有Counts[i]张。现在要用这些钱来支付Total元，至少要用多少张纸币？
 //
