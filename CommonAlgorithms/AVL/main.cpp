@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  CommonAlgorithms
+//  二叉排序树与平衡二叉树（AVL)
 //
 //  Created by vincent on 2017/10/17.
 //  Copyright © 2017年 vincent. All rights reserved.
