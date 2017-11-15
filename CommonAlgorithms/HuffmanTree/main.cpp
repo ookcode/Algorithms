@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  CommonAlgorithms
+//  哈夫曼树与哈夫曼编码
 //
 //  Created by vincent on 2017/10/17.
 //  Copyright © 2017年 vincent. All rights reserved.
