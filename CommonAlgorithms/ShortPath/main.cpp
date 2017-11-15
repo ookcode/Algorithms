@@ -1,6 +1,7 @@
 //
 //  main.cpp
-//  CommonAlgorithms
+//  最短路径
+//  Dijkstra算法与Floyd算法
 //
 //  Created by vincent on 2017/11/07.
 //  Copyright © 2017年 vincent. All rights reserved.
