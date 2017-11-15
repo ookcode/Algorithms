@@ -1,6 +1,7 @@
 //
 //  main.cpp
-//  CommonAlgorithms
+//  最小生成树（MST)
+//  Prim算法与Kruskal算法
 //
 //  Created by vincent on 2017/11/07.
 //  Copyright © 2017年 vincent. All rights reserved.
