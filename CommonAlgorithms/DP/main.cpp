@@ -1,7 +1,7 @@
 //
+//  main.cpp
 //  动态规划(dynamic programming)
-//
-//  0-1背包模型
+//  01背包问题
 //  给定ItemCount个物品, 物品i的重量是Weights[i], 价值Values[i], 背包的容量为TotalWeight
 //  问应该如何选择装入背包的物品，使得背包内物品的总价值最大？
 
