@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  CommonAlgorithms
+//  二叉树的遍历与线索二叉树
 //
 //  Created by vincent on 2017/10/17.
 //  Copyright © 2017年 vincent. All rights reserved.
