@@ -5,5 +5,5 @@
 *.xcworkspacedata
 *.xcuserstate
 *.xccheckout
-
+xcuserdata/
 bin
