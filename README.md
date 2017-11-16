@@ -1,4 +1,18 @@
+# Algorithms
+
+[![Language: C++](https://img.shields.io/badge/language-C++-fc487d.svg)](https://isocpp.org/)
+[![License](https://img.shields.io/badge/license-MIT-000000.svg)](https://github.com/ookcode/Dinky2D/blob/master/LICENSE)
+
+主流算法的 C++ 实现。
+
+## 环境
+
+Xcode 9.0+
+
+## 内容
+
 ### 常用算法
+
 * [x] [二叉树和前中后序遍历](https://github.com/ookcode/Algorithms/blob/master/CommonAlgorithms/BinaryTree/main.cpp)
 * [x] [线索二叉树](https://github.com/ookcode/Algorithms/blob/master/CommonAlgorithms/BinaryTree/main.cpp)
 * [x] [哈夫曼树与哈夫曼编码](https://github.com/ookcode/Algorithms/blob/master/CommonAlgorithms/HuffmanTree/main.cpp)
@@ -17,9 +31,10 @@
 * [x] [堆排序](https://github.com/ookcode/Algorithms/blob/master/CommonAlgorithms/Sort/main.cpp)
 * [x] [归并排序](https://github.com/ookcode/Algorithms/blob/master/CommonAlgorithms/Sort/main.cpp)
 * [x] [快速排序](https://github.com/ookcode/Algorithms/blob/master/CommonAlgorithms/Sort/main.cpp)
-* [ ] A*寻路算法
+* [ ] A\*寻路算法
 
 ### 其他算法
+
 * [ ] 静态链表
 * [ ] 十字链表
 * [ ] 四则运算表达式求值(逆波兰后缀表示法)
@@ -28,3 +43,13 @@
 * [ ] AOE网关键路径
 * [ ] 多路查找树(B树)
 * [ ] 散列表查找(哈希表)
+
+## 作者
+
+ookcode, ookcode@gmail.com
+
+## 协议
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/License_icon-mit-88x31-2.svg/128px-License_icon-mit-88x31-2.svg.png)
+
+Algorithms 基于 MIT 协议进行分发和使用，更多信息参见协议文件。
